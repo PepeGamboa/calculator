@@ -1,14 +1,25 @@
-<<<<<<< HEAD
+# Archivos de Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
+
+# Entornos virtuales
 venv/
-.venv
-.DS_Store
-=======
-.venv/
+env/
+ENV/
+
+# IDEs
 .vscode/
->>>>>>> ae01d7f5854134a5324848cd5c0760a8c2f10cf1
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de prueba
+test.py
+prueba.py
