@@ -423,6 +423,18 @@ Este proyecto es ideal para aprender:
 
 \- Mejorar el manejo de excepciones
 
+## 🙏 Créditos y Reconocimientos
+
+### Versión Python Original
+- **Autor**: [Los Monos](https://www.youtube.com/@losmonosco)
+- **Plataforma**: YouTube
+- El código base de la calculadora en Python fue inspirado y adaptado del tutorial de Los Monos.
+
+### Versión Web
+- **Desarrollador**: [Pepe Gamboa](https://github.com/PepeGamboa)
+- La versión web interactiva (HTML/CSS/JavaScript) fue desarrollada como una extensión del proyecto original, permitiendo que la calculadora funcione en navegadores web.
+
+Este proyecto combina el aprendizaje del tutorial original con una implementación web moderna para demostrar las mismas funcionalidades en diferentes plataformas.
 
 
 \## 📝 Licencia
