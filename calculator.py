@@ -1,3 +1,17 @@
+# Calculadora en Python
+# Tutorial original por: Los Monos (https://www.youtube.com/@losmonosco)
+# Adaptado por: Pepe Gamboa
+
+def suma(a, b):
+    """Retorna la suma de a y b"""
+    return a + b
+
+def resta(a, b):
+    """Retorna la resta de a menos b"""
+    return a - b
+
+# ... resto del código
+
 import math
 
 def pedir_numero(prompt: str):
