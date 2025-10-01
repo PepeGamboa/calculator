@@ -361,115 +361,66 @@ Elige una opción (1-4): 4
 
 
 
-Resultado: Error: División por cero no permitida
-
-```
-
-
-
-\## 🎓 Conceptos de Programación Incluidos
-
-
-
-Este proyecto es ideal para aprender:
-
-
-
-\- \*\*Funciones\*\*: Modularización y reutilización de código
-
-\- \*\*Condicionales\*\*: Estructuras if/elif/else
-
-\- \*\*Bucles\*\*: Implementación de while para operaciones continuas
-
-\- \*\*Entrada/Salida\*\*: Interacción con el usuario mediante input() y print()
-
-\- \*\*Manejo de Errores\*\*: Validación de operaciones incorrectas
-
-\- \*\*Tipos de Datos\*\*: Trabajo con números enteros y flotantes
-
-
-
-\## 🤝 Contribuir
-
-
-
-¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto:
-
-
-
-1\. Haz un Fork del proyecto
-
-2\. Crea una rama para tu función (`git checkout -b feature/NuevaFuncion`)
-
-3\. Realiza tus cambios y haz commit (`git commit -m 'Agrega nueva función'`)
-
-4\. Sube los cambios a tu rama (`git push origin feature/NuevaFuncion`)
-
-5\. Abre un Pull Request
-
-
-
-\### Ideas para contribuir:
-
-
-
-\- Agregar más operaciones (potencia, raíz cuadrada, módulo)
-
-\- Implementar una interfaz gráfica (GUI)
-
-\- Agregar historial de operaciones
-
-\- Incluir operaciones con múltiples números
-
-\- Mejorar el manejo de excepciones
-
-## 🙏 Créditos y Reconocimientos
-
-### Versión Python Original
-- **Autor**: [Los Monos](https://www.youtube.com/@losmonosco)
-- **Plataforma**: YouTube
-- El código base de la calculadora en Python fue inspirado y adaptado del tutorial de Los Monos.
-
-### Versión Web
-- **Desarrollador**: [Pepe Gamboa](https://github.com/PepeGamboa)
-- La versión web interactiva (HTML/CSS/JavaScript) fue desarrollada como una extensión del proyecto original, permitiendo que la calculadora funcione en navegadores web.
-
-Este proyecto combina el aprendizaje del tutorial original con una implementación web moderna para demostrar las mismas funcionalidades en diferentes plataformas.
-
-
-\## 📝 Licencia
-
-
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
-
-
-\## 👤 Contacto
-
-
-
-\*\*Pepe Gamboa\*\*
-
-
-
-\- GitHub: \[@PepeGamboa](https://github.com/PepeGamboa)
-
-\- Repositorio: \[https://github.com/PepeGamboa/calculator](https://github.com/PepeGamboa/calculator)
-
-
-
----
-
-
-
-⭐ Si este proyecto te fue útil, no olvides darle una estrella en GitHub
-
-
-
-📚 Perfecto para principiantes en Python | 🚀 Proyecto educativo
-
-
-
-\*\*Hecho con ❤️ y Python\*\*
-
+# 🧮 Calculadora Científica en Python
+
+Una calculadora científica completa y elegante desarrollada en Python que funciona directamente en la terminal. Perfecta tanto para estudiantes, profesionales y entusiastas de las matemáticas.
+
+[![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+
+## 📋 Tabla de Contenidos
+
+- [Características](#-características)
+- [Requisitos Previos](#-requisitos-previos)
+- [Instalación](#-instalación)
+- [Uso](#-uso)
+- [Funciones Disponibles](#-funciones-disponibles)
+- [Ejemplos](#-ejemplos)
+- [Estructura del Código](#-estructura-del-código)
+- [Contribuir](#-contribuir)
+- [Licencia](#-licencia)
+- [Contacto](#-contacto)
+
+## ✨ Características
+
+### 📐 Operaciones Básicas
+- ➕ **Suma**: Adición de dos números
+- ➖ **Resta**: Sustracción de dos números
+- ✖️ **Multiplicación**: Producto de dos números
+- ➗ **División**: División con validación de división por cero
+- 🔢 **Módulo**: Resto de división entre dos números
+
+### 🔬 Operaciones Avanzadas
+- 📈 **Potencia**: Eleva un número a cualquier potencia
+- √ **Raíz Cuadrada**: Calcula raíces cuadradas
+- ⁿ√ **Raíz n-ésima**: Calcula cualquier raíz (cúbica, cuarta, etc.)
+- 📊 **Logaritmos**: Base 10, natural (ln) y base personalizada
+- ❗ **Factorial**: Calcula el factorial de números enteros
+- |x| **Valor Absoluto**: Obtiene el valor absoluto
+- 🎯 **Redondeo**: Redondea a n decimales
+
+### 📐 Funciones Trigonométricas
+- 📏 **Seno, Coseno, Tangente**: Funciones trigonométricas directas
+- 🔄 **Arcoseno, Arcocoseno, Arcotangente**: Funciones inversas
+- 🌐 **Modo flexible**: Trabaja en grados o radianes
+
+### 💎 Constantes Matemáticas
+- π **Pi**: 3.14159265...
+- e **Número de Euler**: 2.71828182...
+
+### 🛡️ Características Adicionales
+- ✅ **Validación robusta**: Manejo completo de errores
+- 🎨 **Interfaz intuitiva**: Menú organizado por categorías
+- 🔄 **Uso continuo**: Realiza múltiples operaciones sin reiniciar
+- 📱 **Mensajes descriptivos**: Feedback claro en cada operación
+
+## 🔧 Requisitos Previos
+
+Antes de comenzar, asegúrate de tener instalado:
+
+- **Python 3.6 o superior**
+- Terminal o línea de comandos
+
+Para verificar tu versión de Python:
+```bash
