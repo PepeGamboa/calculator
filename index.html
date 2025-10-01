@@ -168,17 +168,22 @@ index.html
         }
 
         .footer {
-            text-align: center;
-            margin-top: 30px;
-            color: #666;
-            font-size: 0.9em;
-        }
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.6;
+}
 
-        .footer a {
-            color: #667eea;
-            text-decoration: none;
-            font-weight: 600;
-        }
+.footer a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
     </style>
 </head>
 <body>
@@ -220,10 +225,13 @@ index.html
 
         <div class="error" id="error"></div>
 
-        <div class="footer">
-            Hecho con amor por <a href="https://github.com/PepeGamboa" target="_blank">Pepe Gamboa</a>
-        </div>
-    </div>
+       <div class="footer">
+    🧮❤️ Hecho con amor por <a href="https://github.com/PepeGamboa" target="_blank">Pepe Gamboa</a>
+    <br>
+    <span style="font-size: 0.85em; margin-top: 5px; display: inline-block;">
+        Créditos: <a href="https://www.youtube.com/@losmonosco" target="_blank">@losmonosco</a>
+    </span>
+</div>
 
     <script>
         function calcular(operacion) {
