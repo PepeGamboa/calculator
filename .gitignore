@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 __pycache__/
 *.py[cod]
 *$py.class
@@ -7,3 +8,7 @@ env/
 venv/
 .venv
 .DS_Store
+=======
+.venv/
+.vscode/
+>>>>>>> ae01d7f5854134a5324848cd5c0760a8c2f10cf1
